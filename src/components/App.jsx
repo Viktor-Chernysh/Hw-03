@@ -12,7 +12,7 @@ class App extends Component {
   };
 
   render() {
-    const { searchValue, show } = this.state;
+    const { searchValue } = this.state;
     return (
       <>
         <SearchBar onSubmit={this.onSubmit} />
