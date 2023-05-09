@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <>
         <SearchBar onSubmit={this.onSubmit} />
-        {show && <ImageGallery searchValue={searchValue} />}
+        <ImageGallery searchValue={searchValue} />
       </>
     );
   }
